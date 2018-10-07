@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Luckiest+Guy);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,html {
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Luckiest Guy', Helvetica, sans-serif;
+    text-shadow: 4px 4px 0px #ba3a1a; 
+}
+
+h3 {
+    font-family: 'Luckiest Guy', Helvetica, sans-serif;
+    letter-spacing: 0.05rem;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.main {
+    
+    min-height: 100%;
+    margin-bottom: -3.525rem;
+    overflow: hidden;
+}
+
+
+button {
+    color: rgb(114, 30, 30);
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    outline-style: none;
+    outline-offset: none;
+    border: none;
+    letter-spacing: 0.03rem;
+    cursor: pointer;
+    background-color: greenyellow;
+    font-weight: bold;
+    box-shadow: 2px 2px 8px  black;
+    transition: all .2s;
+    position: relative;
+}
+
+button:active {
+    outline-offset: .9rem;
+    outline-style: dotted;
+    outline-width: 0.1rem;
+    transform: translatey(2px) translateX(2px);
+}
+
+button:hover {
+ box-shadow: 4px 4px 16px black;
+}
+
+button:focus {
+    box-shadow: 2px 2px 8px  black; 
+}
+
+.center {
+    text-align: center;
+}
+
+.empty {
+    height: 3.525rem;
+}
+
+header {
+    padding: 1.2rem;
+    margin-top: -3.525rem;
+    background-color: rgb(177, 245, 42);
+    text-align: center;
+    animation: blink 5s infinite ease;
+    animation-direction: alternate-reverse;
+}
+
+span a {
+    text-decoration: none;
+    letter-spacing: 0.02rem;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
+@keyframes blink {
+
+    0% {background-color:  rgb(177, 245, 42);}
+
+    100% {background-color: rgb(235, 18, 72);}
+
+}
